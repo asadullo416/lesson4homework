@@ -87,7 +87,7 @@
 }
 
 
-.first-button {
+.hero .first-button {
     width: 270px;
     height: 60px;
     margin-top: 70px;
@@ -610,8 +610,75 @@
     margin-top: 5px;
 }
 
-
-.add {
-    margin-top: 500px;
+.earth .first-button{
+    margin-left: 30px;
+    font-family: 'Fraunces', serif;
+    width: 200px;
+    height: 50px;
+    background: #0E8784;
+    border-radius:6px;
+    border: none;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 16px;
 }
+
+
+.moon{
+    width: 1200px;
+    background-color: #2C343E;
+    height: 130px;
+    margin: 400px auto;
+}
+
+.moon__coffee{
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+
+.moon__ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.ul__li{
+    font-size: 12px;
+    color: #83888F;
+}
+
+.moon .icon-1{
+    display: flex;
+    justify-content:end;
+    font-size: 35px;
+    position: relative;
+    top: -25px;
+    left: -240px;
+}
+
+.moon .icon-2{
+    display: flex;
+    justify-content:end;
+    font-size: 35px;
+    position: relative;
+    top: -60px;
+    left: -190px;
+}
+
+.moon .icon-3{
+    display: flex;
+    justify-content:end;
+    font-size: 35px;
+    position: relative;
+    top: -95px;
+    left: -140px;
+}
+
+
+
+
 
